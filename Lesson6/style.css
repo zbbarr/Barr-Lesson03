@@ -1,0 +1,116 @@
+
+/* Global styles*/
+
+body{
+    background-color:#575C55 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a{
+    color: #ACC12F;
+}
+header{
+    background: #575C55;
+}
+h2{
+    margin:0;
+}
+.content-wrap{
+    width: 900px;
+    margin:0 auto;
+    padding: 60px 0;
+}
+/*Flash Eff for Title*/
+
+/*Headings*/
+h1,h2{
+    font-size: 75px;
+    margin:0;
+}
+h3{
+     font-size: larger;
+     font-family: ligurino, sans-serif;
+     font-weight: 700;
+     font-style: normal;
+}
+/*Title*/
+h1{
+    text-align: center; 
+    font-family: ligurino, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+     font-size: larger;
+     font-family: ligurino, sans-serif;
+     font-weight: 700;
+     font-style: normal;
+}
+img{
+    width: 300px;
+
+}
+/*Profile*/
+
+/*Projects*/
+.projects{
+    background: #96A13A;
+}
+.projects a{
+    color: #ACC12F;
+    background:#45425A;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+
+}
+.projects a:hover{
+    background: rgba(69,66,90,80%);
+    color: #E2E2E2;
+}
+/*Work Experience*/
+.work-experience{
+    background: #96A13A;
+    color: #E2E2E2;
+}
+/*Education*/
+/*Drop Down Menu*/
+ body {
+    background: #575C55;        /*Change page background color*/
+     }
+     ul {                                   /*This section styles the unordered list which will become the menu*/
+     text-align: left;                    /*align text within menu to the left*/
+     list-style: none;   list-style-position:inside;                /*get rid of the styling (i.e. bullets) in the list*/
+     align-content: center;
+     }
+     ul li {                                 /*This section styles the list items (i.e. menu items) */
+     font: bold 12px/18px ; /*change the font size and type*/
+     display: inline-block;            /*display list items in one line (makes list horizontal)*/
+     position: center;                /*Will allow submenus to move, letting them open immediately below the different menu items (i.e. a location on the screen relative to the menu item chosen) */
+     padding: 15px 50px;           /*Add padding around the text*/
+     background: #45425A;              /*Change background color of the menu items*/
+     cursor: pointer;                  /*Change the mouse cursor to a pointer even if the text is not a link (useful for dropdown menus)*/
+     }
+     ul li:hover {                        /*This section styles the menu items when hovered (rolled) over*/
+     background: #555;             /*Change the background color of list item when hovered over*/
+     color: #96A13A;                        /*Change the color of the text when hovered over*/
+     }
+     ul li ul {                            /*This section styles the unordered list which will become the submenu*/
+     padding: 0;                       /*Get rid of any default padding*/
+     position: absolute;             /*Works in conjunction with the earlier relative positioning code. Distinguishes submenu items from menu items and forces submenus to open in the same position for each menu item (i.e. an absolute position immediately below the menu item)*/
+     top: 48px;                        /*Add a little space between the menu and submenu*/
+     left: -10000px;                 /*Sets submenu way offscreen on the left side so it's hidden from view*/
+     width: 150px;                  /*Set the width for the submenu*/
+     }
+     ul li ul li {                        /*This section styles nested list items (i.e. submenu items) */
+     background: #555;           /*Set background color for submenu items*/
+     display: block;                 /*Display the submenu items as a block - literally displays all submenu items in one large rectangle.*/
+     color: #fff;                     /*Set submenu text color*/
+     }
+     ul li ul li:hover { background: #666; } /*Change submenu item's background color when hovered over*/
+     ul li:hover ul {                 /*This section styles the submenu when a menu item it hovered over*/
+     display: block;                /*Display submenu as a block when the menu item is hovered over*/
+     left :0px;                        /*Moves submenu from way offscreen to its proper location on screen when the menu item is hovered over*/
+     }
